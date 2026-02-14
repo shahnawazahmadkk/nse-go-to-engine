@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NSE GO-TO Engine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>NSE GO-TO Engine</h1>
+      <p class="sub">
+        Market Regime: <span id="marketRegime">...</span> · Updated: <span id="updatedAt">...</span>
+        <br />
+        Confidence: <span class="badge" id="confidenceBadge">...</span>
+      </p>
+    </div>
+    <button id="refreshBtn">Refresh</button>
+  </header>
+
+  <main class="container">
+    <div class="tabs">
+      <button class="tab active" data-tab="short_term">Short Term (&lt;7d)</button>
+      <button class="tab" data-tab="swing">Swing (7–30d)</button>
+      <button class="tab" data-tab="positional">Positional (&gt;30d)</button>
+    </div>
+
+    <div class="controls">
+      <input id="searchBox" type="text" placeholder="Search ticker (ex: RELIANCE)" />
+      <label class="toggle">
+  <input id="buyOnly" type="checkbox" />
+  <span>BUY only</span>
+</label>
+
+<div class="minscore">
+  <label for="minScore">Min Score</label>
+  <input id="minScore" type="range" min="0" max="100" value="0" />
+  <span id="minScoreVal">0</span>
+</div>
+
+<button id="copyTickers" class="dlbtn">Copy tickers</button>
+
+<div class="downloads">
+  <button id="dlJson" class="dlbtn">Download JSON</button>
+  <button id="dlCsv" class="dlbtn">Download CSV</button>
+</div>
+
+<select id="sortBy">
+        <option value="Score">Sort: Score</option>
+        <option value="RR">Sort: RR</option>
+        <option value="RSI">Sort: RSI</option>
+        <option value="ADX">Sort: ADX</option>
+        <option value="VolRatio">Sort: VolRatio</option>
+      </select>
+    </div>
+
+    <section id="tableWrap" class="table-wrap"></section>
+  </main>
+
+  <footer class="footer">
+    <p>Signals are technical and not financial advice.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
