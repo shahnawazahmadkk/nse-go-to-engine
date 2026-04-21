@@ -1,2 +1,1 @@
 Ticker,Price,Bucket,Decision,Score,Stoploss,Target,RR,RSI,ADX,VolRatio
-IEX.NS,127.6,SWING (7–30 days),WATCH,65,121.18,137.88,1.6,52.06,17.48,1.78
