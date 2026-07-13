@@ -1,1 +1,2 @@
 Ticker,Price,Bucket,Decision,Score,Stoploss,Target,RR,RSI,ADX,VolRatio
+JKPAPER.NS,365.25,SHORT_TERM (<7 days),WATCH,62,345.85,384.65,1.0,58.44,20.09,1.23
