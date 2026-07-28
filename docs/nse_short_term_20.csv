@@ -1,1 +1,2 @@
 Ticker,Price,Bucket,Decision,Score,Stoploss,Target,RR,RSI,ADX,VolRatio
+ESCORTS.NS,3015.7,SHORT_TERM (<7 days),WATCH,66,2879.03,3152.37,1.0,60.12,20.51,1.57
