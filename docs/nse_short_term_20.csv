@@ -1,2 +1,1 @@
 Ticker,Price,Bucket,Decision,Score,Stoploss,Target,RR,RSI,ADX,VolRatio
-KNRCON.NS,133.75,SHORT_TERM (<7 days),WATCH,66,126.0,141.5,1.0,64.56,22.73,4.05
