@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-01 10:25:59 UTC",
+  "updated_at_utc": "2026-10-02 10:01:58 UTC",
   "market_regime": "SIDEWAYS",
   "short_term": [],
   "swing": [],
@@ -67,7 +67,7 @@
       "RR": 3.0,
       "RSI": 62.74,
       "ADX": 22.38,
-      "VolRatio": 0.92
+      "VolRatio": 0.93
     },
     {
       "Ticker": "ZYDUSLIFE.NS",
